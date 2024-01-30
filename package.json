@@ -1,6 +1,6 @@
 {
 	"scripts": {
-		"capture": "start vite npx ts-node-esm ./node_modules/@perry-rylance/node-canvas-video-recorder/src/server.ts"
+		"capture": "npx ts-node-esm ./node_modules/@perry-rylance/node-canvas-video-recorder/src/server.ts"
 	},
 	"dependencies": {
 		"@perry-rylance/node-canvas-video-recorder": "^1.0.1",
