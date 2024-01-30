@@ -1,0 +1,16 @@
+{
+	"scripts": {
+		"capture": "start vite npx ts-node-esm ./node_modules/@perry-rylance/node-canvas-video-recorder/src/server.ts"
+	},
+	"dependencies": {
+		"@perry-rylance/node-canvas-video-recorder": "^1.0.1",
+		"three": "^0.160.1"
+	},
+	"capture": {
+		"width": 1280,
+		"height": 720,
+		"url": "http://localhost:5173",
+		"output": "captured.mp4",
+		"duration": 10
+	}
+}
